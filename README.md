@@ -1,79 +1,51 @@
-# Portfolio
----
-
 # Chiguru Nikila — Personal Portfolio
 
-A fully responsive, animated personal portfolio website built with pure HTML, CSS, and JavaScript. No frameworks, no build tools — just open and run.
+A fully responsive, animated, dark-luxury portfolio website built with pure HTML, CSS, and JavaScript.
 
----
-
-## 🚀 Getting Started
-
-1. Download and unzip the folder
-2. Open `index.html` in any browser
-3. That's it — no installation needed!
-
-> Best viewed in Google Chrome or Mozilla Firefox
-
----
-
-## 📁 Project Structure
+## 📁 File Structure
 
 ```
 nikila-portfolio/
-├── index.html
+├── index.html              ← Main HTML file
 ├── assets/
 │   ├── css/
-│   │   └── style.css
+│   │   └── style.css       ← All styles + animations
 │   ├── js/
-│   │   └── main.js
+│   │   └── main.js         ← Interactions & animations
 │   └── images/
-│       └── nikila.jpeg
+│       └── nikila.jpeg     ← Profile photo
 └── README.md
 ```
 
----
+## 🚀 How to Open
+
+Just double-click `index.html` — no server needed, no installation required.
+
+For best experience, open in **Google Chrome** or **Firefox**.
 
 ## ✨ Features
 
-- Dark luxury design with gold accent theme
-- Custom animated cursor
-- Scroll-reveal animations on all sections
-- Animated skill progress bars
-- Stat counters with number animation
-- 3D tilt effect on project cards
-- Parallax hero background
-- Scroll progress indicator at top
-- Fully responsive — works on mobile, tablet, and desktop
-- Hamburger menu for mobile
-- Animated contact form with floating labels
+- 🌙 Dark luxury aesthetic with gold accents
+- 🎯 Custom animated cursor
+- 📜 Scroll-reveal animations for every section
+- 📊 Animated skill bars & stat counters
+- 🃏 3D tilt effect on project cards
+- 📱 Fully responsive (mobile, tablet, desktop)
+- 🎨 Smooth parallax hero background
+- 📈 Scroll progress indicator
+- 📬 Animated contact form
+- ⌨️ Floating label inputs
 
----
-
-## 🛠️ Built With
+## 🛠 Tech Stack
 
 - HTML5
-- CSS3 (Grid, Flexbox, Custom Properties, Keyframes)
-- Vanilla JavaScript (IntersectionObserver, RequestAnimationFrame)
-- Google Fonts — Cormorant Garamond, Syne, DM Mono
+- CSS3 (Custom Properties, Grid, Flexbox, Animations)
+- Vanilla JavaScript (IntersectionObserver, RAF)
+- Google Fonts (Cormorant Garamond, Syne, DM Mono)
 
----
+## 📞 Contact
 
-## 📬 Contact
-
-| Platform | Details |
-|----------|---------|
-| Email | chigurunikila@gmail.com |
-| Phone | +91 77028 49976 |
-| GitHub | github.com/chigurunikila |
-| LinkedIn | linkedin.com/in/nikila-chiguru |
-
----
-
-## 🙋‍♀️ About
-
-Designed and developed by **Chiguru Nikila** — B.Tech CSE (IoT) student at ACE Engineering College, Hyderabad.
-
----
-
-*"Code is poetry written in logic."*
+- Email: chigurunikila@gmail.com
+- Phone: +91 77028 49976
+- GitHub: chigurunikila
+- LinkedIn: nikila-chiguru
