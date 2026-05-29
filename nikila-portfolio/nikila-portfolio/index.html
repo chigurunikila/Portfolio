@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chiguru Nikila — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-text">Nikila</span>
+      <span class="logo-dot"></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active" data-text="Home">Home</a></li>
+      <li><a href="#about" class="nav-link" data-text="About">About</a></li>
+      <li><a href="#skills" class="nav-link" data-text="Skills">Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-text="Projects">Projects</a></li>
+      <li><a href="#achievements" class="nav-link" data-text="Achievements">Achievements</a></li>
+      <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" class="mob-link">Home</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#achievements" class="mob-link">Achievements</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-left reveal-left">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span class="eyebrow-text">Computer Science Engineer · IoT</span>
+        </div>
+        <h1 class="hero-name">
+          <span class="name-first">Chiguru</span>
+          <span class="name-last">Nikila</span>
+        </h1>
+        <p class="hero-tagline">
+          Crafting <em>thoughtful</em> digital experiences with clean code &amp; creative curiosity.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num" data-target="4">0</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="5">0</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="8">0</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal-right">
+        <div class="photo-frame">
+          <div class="photo-glow"></div>
+          <div class="photo-border-ring ring-1"></div>
+          <div class="photo-border-ring ring-2"></div>
+          <img src="assets/images/nikila.jpeg" alt="Chiguru Nikila" class="hero-photo"/>
+          <div class="photo-tag tag-1">
+            <span class="tag-icon">⚡</span>
+            <span>Full Stack Dev</span>
+          </div>
+          <div class="photo-tag tag-2">
+            <span class="tag-icon">🎯</span>
+            <span>Problem Solver</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-img-wrap">
+            <img src="assets/images/nikila.jpeg" alt="Nikila" />
+            <div class="about-img-deco"></div>
+            <div class="about-badge">
+              <span class="badge-year">2028</span>
+              <span class="badge-label">Graduating</span>
+            </div>
+          </div>
+          <div class="about-links">
+            <a href="mailto:chigurunikila@gmail.com" class="social-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Gmail
+            </a>
+            <a href="https://github.com/chigurunikila" target="_blank" class="social-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/nikila-chiguru" target="_blank" class="social-chip">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="about-text reveal-right">
+          <p class="about-intro">
+            Hi! I'm <strong>Nikila</strong> — a Computer Science (IoT) student at ACE Engineering College, Hyderabad, with a passion for building meaningful software.
+          </p>
+          <p>
+            I thrive at the intersection of elegant code and real-world impact. From automating workflows with Python & Selenium to building full-stack web applications with Spring Boot, I love turning complex problems into clean, functional solutions.
+          </p>
+          <p>
+            Beyond code, I'm a trained Bharatanatyam dancer (certified by Potti Sreeramulu Telugu University) and an NSS member — someone who believes discipline, creativity, and community are equally important.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <span class="info-label">University</span>
+              <span class="info-value">ACE Engineering College</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Degree</span>
+              <span class="info-value">B.Tech CSE (IoT)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">Hyderabad, India</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">CGPA</span>
+              <span class="info-value">8.0 / 10</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn-primary">Let's Connect →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills section" id="skills">
+    <div class="skills-bg-text">SKILLS</div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">My Skills</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-categories">
+
+        <div class="skill-category reveal-up" style="--delay:0s">
+          <div class="cat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Technical Skills</h3>
+          <div class="skill-pills">
+            <span class="pill" data-level="85">Java <em>85%</em></span>
+            <span class="pill" data-level="80">Python <em>80%</em></span>
+            <span class="pill" data-level="70">C <em>70%</em></span>
+            <span class="pill" data-level="75">DSA <em>75%</em></span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>Java</span><span>85%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>Python</span><span>80%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>C</span><span>70%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>DSA</span><span>75%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.15s">
+          <div class="cat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Web Technologies</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>HTML5</span><span>90%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>CSS3</span><span>85%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>JavaScript</span><span>75%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>MySQL</span><span>70%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.3s">
+          <div class="cat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Tools & Frameworks</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>Spring Boot</span><span>70%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>Selenium</span><span>75%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>VS Code</span><span>90%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sbi-label"><span>AutoCAD</span><span>60%</span></div>
+              <div class="sbi-track"><div class="sbi-fill" data-width="60"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.45s">
+          <div class="cat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Soft Skills</h3>
+          <div class="soft-skills-list">
+            <div class="soft-item">
+              <span class="soft-dot"></span>Communication
+            </div>
+            <div class="soft-item">
+              <span class="soft-dot"></span>Problem Solving
+            </div>
+            <div class="soft-item">
+              <span class="soft-dot"></span>Collaboration
+            </div>
+            <div class="soft-item">
+              <span class="soft-dot"></span>Time Management
+            </div>
+            <div class="soft-item">
+              <span class="soft-dot"></span>Leadership
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal-up" style="--delay:0s">
+          <div class="project-num">01</div>
+          <div class="project-top">
+            <div class="project-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link" title="View Project">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Automated Amazon Cart Management</h3>
+          <p class="project-desc">A Robotic Process Automation (RPA) solution using Python and Selenium to automate product search, price tracking, and cart operations with dynamic webpage element handling.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Selenium</span>
+            <span>RPA</span>
+            <span>Web Automation</span>
+          </div>
+          <div class="project-features">
+            <div class="feat">✦ Price tracking & monitoring</div>
+            <div class="feat">✦ Auto cart add/remove</div>
+            <div class="feat">✦ Dynamic element handling</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay:0.15s">
+          <div class="project-num">02</div>
+          <div class="project-top">
+            <div class="project-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link" title="View Project">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Book Store Management System</h3>
+          <p class="project-desc">A full-stack web application built with Spring Boot and Thymeleaf. Features complete CRUD operations for books, authors, and categories backed by MySQL via Spring Data JPA.</p>
+          <div class="project-tech">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Thymeleaf</span>
+            <span>MySQL</span>
+            <span>JPA</span>
+          </div>
+          <div class="project-features">
+            <div class="feat">✦ Full CRUD operations</div>
+            <div class="feat">✦ Server-side rendering</div>
+            <div class="feat">✦ REST API endpoints</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="certs section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Certifications</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card reveal-up" style="--delay:0s">
+          <div class="cert-logo oracle">
+            <span>Or</span>
+          </div>
+          <div class="cert-info">
+            <h4>Oracle Foundation Java</h4>
+            <span>Oracle</span>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.1s">
+          <div class="cert-logo cisco">
+            <span>Ci</span>
+          </div>
+          <div class="cert-info">
+            <h4>PCAP: Python Essentials</h4>
+            <span>CISCO</span>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.2s">
+          <div class="cert-logo aws">
+            <span>AWS</span>
+          </div>
+          <div class="cert-info">
+            <h4>Cloud Networking via AWS</h4>
+            <span>Amazon Web Services</span>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.3s">
+          <div class="cert-logo ibm">
+            <span>IBM</span>
+          </div>
+          <div class="cert-info">
+            <h4>Web Development Fundamentals</h4>
+            <span>IBM</span>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section class="achievements section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Achievements</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="achievements-list">
+        <div class="ach-item reveal-left" style="--delay:0s">
+          <div class="ach-icon">🏆</div>
+          <div class="ach-content">
+            <h4>SDG Innovation Hackathon</h4>
+            <p>Certified for participation in the SDG-focused innovation hackathon — HACK4SDG.</p>
+          </div>
+          <div class="ach-tag">HACK4SDG</div>
+        </div>
+        <div class="ach-item reveal-right" style="--delay:0.1s">
+          <div class="ach-icon">💃</div>
+          <div class="ach-content">
+            <h4>Bharatanatyam Diploma</h4>
+            <p>Diploma in Bharatanatyam from Potti Sreeramulu Telugu University — a testament to dedication and artistic excellence.</p>
+          </div>
+          <div class="ach-tag">Certified</div>
+        </div>
+        <div class="ach-item reveal-left" style="--delay:0.2s">
+          <div class="ach-icon">📖</div>
+          <div class="ach-content">
+            <h4>Telugu Book of Records</h4>
+            <p>Recognized for participating in a large-scale cultural dance event.</p>
+          </div>
+          <div class="ach-tag">Record</div>
+        </div>
+        <div class="ach-item reveal-right" style="--delay:0.3s">
+          <div class="ach-icon">🌍</div>
+          <div class="ach-content">
+            <h4>Wonder Book of Records International</h4>
+            <p>Participated in dance and music at an international cultural event — recognized globally.</p>
+          </div>
+          <div class="ach-tag">International</div>
+        </div>
+        <div class="ach-item reveal-left" style="--delay:0.4s">
+          <div class="ach-icon">🤝</div>
+          <div class="ach-content">
+            <h4>National Service Scheme (NSS)</h4>
+            <p>Active member contributing to community service and social development initiatives.</p>
+          </div>
+          <div class="ach-tag">Membership</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">06</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal-left" style="--delay:0s">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2024 – 2028</div>
+          <div class="tl-content">
+            <h4>Bachelor of Technology — CSE (IoT)</h4>
+            <span class="tl-school">ACE Engineering College, Hyderabad</span>
+            <p>CGPA: <strong>8.0</strong> till 3rd Semester</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal-right" style="--delay:0.15s">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2022 – 2024</div>
+          <div class="tl-content">
+            <h4>Intermediate Education (MPC)</h4>
+            <span class="tl-school">Sri Chaitanya Junior College, Hyderabad</span>
+            <p>Percentage: <strong>70%</strong></p>
+          </div>
+        </div>
+        <div class="timeline-item reveal-left" style="--delay:0.3s">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2021 – 2022</div>
+          <div class="tl-content">
+            <h4>SSC Board Education</h4>
+            <span class="tl-school">Bharathi Vidhya Bhavan High School, Hyderabad</span>
+            <p>CGPA: <strong>9.0</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">07</span>
+        <h2 class="section-title">Contact</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info reveal-left">
+          <p class="contact-intro">I'm always open to new opportunities, collaborations, or just a good conversation about tech. Let's build something great together.</p>
+          <div class="contact-items">
+            <a href="mailto:chigurunikila@gmail.com" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">chigurunikila@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+917702849976" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.01 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">Phone</span>
+                <span class="ci-value">+91 77028 49976</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/nikila-chiguru" target="_blank" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">LinkedIn</span>
+                <span class="ci-value">nikila-chiguru</span>
+              </div>
+            </a>
+            <a href="https://github.com/chigurunikila" target="_blank" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">GitHub</span>
+                <span class="ci-value">chigurunikila</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-right" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="fname" placeholder=" " required/>
+            <label for="fname">Your Name</label>
+            <div class="form-line"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="femail" placeholder=" " required/>
+            <label for="femail">Your Email</label>
+            <div class="form-line"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="fsubject" placeholder=" " required/>
+            <label for="fsubject">Subject</label>
+            <div class="form-line"></div>
+          </div>
+          <div class="form-group">
+            <textarea id="fmessage" rows="4" placeholder=" " required></textarea>
+            <label for="fmessage">Your Message</label>
+            <div class="form-line"></div>
+          </div>
+          <button type="submit" class="btn-primary form-btn">
+            <span>Send Message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <span>✓</span> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">CN</div>
+      <p>Designed &amp; Built by <strong>Chiguru Nikila</strong> · 2025</p>
+      <p class="footer-quote"><em>"Code is poetry written in logic."</em></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
